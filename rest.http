@@ -1,0 +1,14 @@
+@hostname = localhost
+@port = 8080
+@api-path = /api/rest
+@url = {{hostname}}:{{port}}{{api-path}}
+
+###
+
+GET http://{{url}}/profiles HTTP/1.1
+
+### 
+
+GET http://{{url}}/log-etl-dataload HTTP/1.1
+
+###
